@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: '양진체';
+            src: url('https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            font-family: '양진체', 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container {
+            width: 560px;
+            padding: 30px;
+            margin: auto;
+        }
+
+        #container>#nav {
+            background-color: rgb(238, 238, 238);
+        }
+
+        #container>#nav>div {
+            padding: 20px;
+        }
+
+
+        #container>#nav h1 {
+            display: inline;
+        }
+        #container table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #container th,td{
+            padding: 10px;
+        }
+
+        #container>#footer {
+            padding: 20px;
+            text-align: center;
+            background-color: rgb(238, 238, 238);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="nav" style="overflow: hidden;">
+            <div style="float: left;">
+                <a href="">
+                    <h1>홈</h1>
+                </a>
+            </div>
+            <div style="float: right;">
+                <a href="">
+                    <h1>메뉴1</h1>
+                </a>
+                <a href="">
+                    <h1>메뉴2</h1>
+                </a>
+            </div>
+        </div>
+        <div>
+            <div style="overflow: hidden;">
+                <figure style="float: left;">
+                    <img src="images/main1.gif" alt="">
+                    <figcaption>먹자먹자</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/main2.gif" alt="" style="width: 175px;">
+                    <figcaption>춤추자</figcaption>
+                </figure>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ad odit maiores tenetur, magni recusandae
+                officia ducimus at nesciunt aliquam amet nobis nihil dolores, impedit sint? Maxime, necessitatibus?
+                Adipisci, assumenda?</p>
+
+        </div>
+        <div style="padding: 20px;">
+            <h1>Education</h1>
+            <table style="width: 100%;">
+                <caption>학력사항</caption>
+                <thead>
+                    <tr>
+                        <th>출신학교</th>
+                        <th>전공</th>
+                        <th>기간</th>
+                        <th>구분</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ㅁㅁ대학교</td>
+                        <td>경찰행정</td>
+                        <td>2023.3~2025.2</td>
+                        <td>졸업</td>
+                    </tr>
+                    <tr>
+                        <td>ㅁㅁ고등학교</td>
+                        <td>-</td>
+                        <td>2004.3~2007.2</td>
+                        <td>졸업</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+        <div>Section2</div>
+        <div id="footer">
+            <h1>CopyRight 이준석</h1>
+        </div>
+    </div>
+    <div>asdfasdf</div>
+</body>
+
+</html>
